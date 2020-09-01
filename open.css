@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+			body{font-family: 'Black Han Sans', sans-serif; font-size: 2.2vw;	
+					}
+
+			
+			.wrap{position: absolute; top: 0px; left: 0px; width: 100%; height: 100vh; overflow: hidden; background: linear-gradient(90deg, #ffc502 55%, #ffffff 45%);} 
+			.head{position: relative; top: 0px; left: 0px; width: 100%; height: 9vh; border-bottom: 1px solid white;}
+			.mid{position: relative; top: 0px; left: 0px; width: 100%; height: 100vh;}
+
+			.titleBox{width:100%; height:100%; font-weight: 500; letter-spacing: 1px;  float:left; padding-top: 2%; box-sizing:border-box; text-align: center;}
+			.titleBox span{color: #1e1e1e;}
+
+			.mid2-1{width: 100%; height: 100%; position: relative; float: center; overflow: visible; border: 3px solid white; box-sizing: border-box; padding:1%; color: white;}
+			.s{position: absolute;				  				  
+				  width: 100%;}	
+
+			.s1{position: absolute;
+				top: -4%;				
+				left: 42%;
+				width: 23%;}
+
+			@media(max-width:1680px){
+				.s1{top:-2%;
+					left: 41%;
+					width: 25%;
+				}
+			}	
+
+
+
+			.s2{position: absolute;
+				top: 36%;
+				left: 60%;					  
+				width: 29%;
+				filter: drop-shadow(7px 7px 8px #bfbfbf)}		
+
+			.p {position: absolute;
+				  top: 22%;
+				  left: 50%; 
+				  transform: translate(-50%, -50%);
+				  margin: 0;
+				  color: #ffd020;
+				  font-size: 13.5vw;
+				  text-transform: uppercase;
+				  white-space: nowrap;
+				  text-shadow: 2px 2px 12px rgba(222,222,222, 0.7);
+				}
+			.p::before {
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  content: attr(data-split);
+				  width: 55%;
+				  color: #ffff;
+				  overflow: hidden;
+				  text-shadow: 3px 4px 17px rgba(223,148,0, 0.8);
+				}
+				.mid2-2{width: 10%; height: 21%; position: relative; margin-top: 33.9%; margin-left: 4.6%; border: 3px solid white; box-sizing: border-box; padding:1%; border-radius:50%; color: white; 
+					-webkit-animation: rotation 7s infinite linear;}
+
+				@-webkit-keyframes rotation {
+			    from {-webkit-transform: rotate(0deg);}
+			    to   {-webkit-transform: rotate(359deg);}
+			}
+
+				@media(max-width:1680px){
+				.mid2-2 {width: 10%; height: 19%;
+				margin-top: 37%; margin-left: 6%;					
+				}
+			}	
+
+
+
+			.mid2-2:hover {
+			    animation-play-state: paused; cursor:pointer; }
+
+
+					
+				.badge {border: 3px solid white; box-sizing: border-box;
+			  position: absolute;
+			  width: 100px;
+			  border-radius: 50%;
+			  transform: rotate(-50deg);
+			  top: -92.2%;
+			  left: -108.4%;
+			 
+			  }
+
+			  @media(max-width:1680px){
+				.badge {top:-96.5%;
+					left: -119.2%;
+				}
+			}	
+
+
+
+			.badge h1 span {font-family: 'Do Hyeon', sans-serif;
+				color: #242424;
+			    font-size: 93px;
+			    font-weight: 500;
+			    height: 355px;
+			    position: absolute;
+	  		    width: 50px;  
+			    left: 0;
+			    top: 0;
+			    transform-origin: bottom center;
+			    }
+
+			     @media(max-width:1680px){
+				.badge h1 span {
+					font-size: 87px;
+					height: 325px;					
+				}
+			}
+
+			
+			.char1 {
+			  transform: rotate(0deg);}
+
+			.char2 {
+			  transform: rotate(15deg);}
+
+			.char3 {
+			  transform: rotate(30deg);}
+
+			.char4 {
+			  transform: rotate(45deg);}
+
+			.char5 {
+			  transform: rotate(60deg);}
+
+			.char6 {
+			  transform: rotate(76deg);}
+
+			.char7 {
+			  transform: rotate(79deg);}
+
+			.char8 {
+			  transform: rotate(94deg);}
+
+			.char9 {
+			  transform: rotate(106deg);}
+
+			.char10 {
+			  transform: rotate(119deg);}
+
+			.char11 {
+			  transform: rotate(139deg);}
+
+			.char12 {
+			  transform: rotate(154deg);}
+
+			.char13 {
+			  transform: rotate(169deg);}
+
+			.char14 {
+			  transform: rotate(187deg);}
+
+			.char15 {
+			  transform: rotate(198deg);}
+
+			.char16 {
+			  transform: rotate(208deg);}
+
+			.char17 {
+			  transform: rotate(218deg);}
+
+			.char18 {
+			  transform: rotate(238deg);}
+
+			.char19 {
+			  transform: rotate(256deg);}
+
+			.char20 {
+			  transform: rotate(269deg);}
+
+			.char21 {
+			  transform: rotate(288deg);}
+
+			.char22 {
+			  transform: rotate(302deg);}
+
+			.char23 {
+			  transform: rotate(317deg);}
+
+			.char24 {
+			  transform: rotate(331deg);}
+			.char25 {
+			  transform: rotate(345deg);}
+
+
+			.rot {width: 46%; position: absolute; top: 33.3%; left: -12.5%; float: center;  border: 3px solid white; box-sizing: border-box; padding:1%; border-radius:50%; color: white;
+				 -webkit-animation: rotation 25s infinite linear;
+				
+					}
+
+			 @media(max-width:1680px){			 	
+				.rot {width: 47%; top: 35.3%; left: -12%;
+					
+				}
+			}	
+
+				/*index3이랑 연결

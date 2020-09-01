@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>어쩌다보니 넵병</title>
+	<script type="text/javascript" src="http://www.blueb.co.kr/SRC/javascript/moveobj.js"> </script>
+
+<script type="text/javascript">
+var flyimage1, flyimage2
+
+function pagestart(){
+	flyimage1=new Chip("flyimage1",47,68);
+	flyimage2=new Chip("flyimage2",47,68);
+	
+
+	movechip("flyimage1");
+	movechip("flyimage2");
+	
+}
+
+if (window.addEventListener)
+	window.addEventListener("load", pagestart, false)
+	else if (window.attachEvent)
+		window.attachEvent("onload", pagestart)
+	else if (document.getElementById)
+		window.onload=pagestart
+</script>
+
+<style>
+		
+		.s1{
+			width: 95%; 		 			 	 
+		 	}
+
+	</style>
+</head>
+
+<body>
+
+<img src="nep.png" class="s1">
+
+<DIV ID="flyimage1" STYLE="position:absolute; left: -500px; width:47; height:68;">
+<A HREF="intro.html"><IMG SRC="넵.png" BORDER=0></a>
+</DIV>
+
+<DIV ID="flyimage2" STYLE="position:absolute; left: -500px; width:47; height:68;">
+<A HREF="intro.html"><IMG SRC="넵.png" BORDER=0></a>
+</DIV>
+
+
+</body>
+</html>
